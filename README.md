@@ -1,3 +1,18 @@
+Testes conexao mysql RDS
+
+
+ENDPOINT INCORRETO
+(2003, "Can't connect to MySQL server on 'cozinhas-identifier.c04tyojalq5l.us-east-1.rds.amazonaws.co' ([Errno -2] Name or service not known)")
+
+DATABASE INEXISTENTE
+(1049, "Unknown database 'cozinhass'")
+
+PORT INCORRETA / SG ou NAcl SEM LIBERACAO CORRETA
+(2003, "Can't connect to MySQL server on 'cozinhas-identifier.c04tyojalq5l.us-east-1.rds.amazonaws.com' (timed out)")
+
+
+
+
 # 🐍 📄 PySpark Cheat Sheet
 
 A quick reference guide to the most commonly used patterns and functions in PySpark SQL.
